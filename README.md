@@ -28,9 +28,9 @@ Right now I'm building **ContextSnip**, a cross-platform desktop app for turning
 <p>
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, Node.js" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,py,php,wordpress,lua,expo,supabase&theme=dark" alt="C#, .NET, Python, PHP, WordPress, Lua, Expo, Supabase" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,py,php,wordpress,lua,supabase,postgres&theme=dark" alt="C#, .NET, Python, PHP, WordPress, Lua, Supabase, Postgres" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=postgres,azure,docker,linux,git,github,figma,vscode&theme=dark" alt="Postgres, Azure, Docker, Linux, Git, GitHub, Figma, VS Code" />
+  <img src="https://skillicons.dev/icons?i=azure,docker,linux,git,github,figma,vscode,powershell&theme=dark" alt="Azure, Docker, Linux, Git, GitHub, Figma, VS Code, PowerShell" />
 </p>
 
 Also comfortable in Liquid, Shopify, Roblox Studio, hosting, custom systems, and whatever else a project needs.
@@ -65,8 +65,3 @@ I design and develop Roblox games on the side: worldbuilding, mechanics, systems
 <a href="https://joshuamohanlal.com"><img src="https://img.shields.io/badge/portfolio-243B34?style=for-the-badge&logo=safari&logoColor=F4F8E8&labelColor=061011" alt="Portfolio"/></a>
 <a href="https://linkedin.com/in/joshuamohanlal"><img src="https://img.shields.io/badge/linkedin-365E55?style=for-the-badge&logo=linkedin&logoColor=F4F8E8&labelColor=061011" alt="LinkedIn"/></a>
 <a href="mailto:hello@joshuamohanlal.com"><img src="https://img.shields.io/badge/email-6F8174?style=for-the-badge&logo=protonmail&logoColor=F4F8E8&labelColor=061011" alt="Email"/></a>
-
-<br/>
-<br/>
-
-<sub>Idea -> useful thing -> shipped.</sub>
