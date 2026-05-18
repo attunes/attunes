@@ -4,9 +4,13 @@
 ============================================================ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-typewriter.gif">
-  <img src="assets/hero-typewriter.gif" alt="Joshua Mohanlal - Full-Stack developer - Rotterdam, NL" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-static.gif">
+  <img src="assets/hero-static.gif" alt="Joshua Mohanlal - Full-Stack developer - Rotterdam, NL" width="100%"/>
 </picture>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2600&pause=900&color=F4F8E8&center=true&vCenter=true&width=720&height=45&lines=Rough+idea+-%3E+live+product.;UI+-%3E+API+-%3E+shipped.;Client+work+-%3E+launch." alt="Typing animation: rough idea to live product, UI to API to shipped, client work to launch" />
+</p>
 
 ---
 
