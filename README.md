@@ -26,9 +26,11 @@ Right now I'm building **ContextSnip**, a cross-platform desktop app for turning
 ### Tech I actually reach for
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py,php,wordpress,html,css,js,ts,react,nextjs,tailwind,nodejs,cs,dotnet,lua&theme=dark" alt="Python, PHP, WordPress, HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, Node.js, C#, .NET, Lua" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, Node.js" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=expo,supabase,postgres,azure,docker,linux,git,github,figma,vscode&theme=dark" alt="Expo, Supabase, Postgres, Azure, Docker, Linux, Git, GitHub, Figma, VS Code" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,py,php,wordpress,lua,expo,supabase&theme=dark" alt="C#, .NET, Python, PHP, WordPress, Lua, Expo, Supabase" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,azure,docker,linux,git,github,figma,vscode&theme=dark" alt="Postgres, Azure, Docker, Linux, Git, GitHub, Figma, VS Code" />
 </p>
 
 Also comfortable in Liquid, Shopify, Roblox Studio, hosting, custom systems, and whatever else a project needs.
@@ -37,11 +39,13 @@ Also comfortable in Liquid, Shopify, Roblox Studio, hosting, custom systems, and
 
 ### Stats
 
-<p>
+<p align="center">
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=attunes&hide_border=true&background=061011&stroke=243B34&ring=F4F8E8&fire=C9D8CD&currStreakNum=F4F8E8&sideNums=C9D8CD&currStreakLabel=F4F8E8&sideLabels=9DB4A6&dates=6F8174" alt="Joshua's GitHub streak" />
 </p>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=attunes&bg_color=061011&color=F4F8E8&line=9DB4A6&point=F4F8E8&area=true&area_color=243B34&hide_border=true&custom_title=Joshua's%20Contribution%20Graph" alt="Joshua's contribution graph" />
+<p align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=attunes&bg_color=061011&color=F4F8E8&line=9DB4A6&point=F4F8E8&area=true&area_color=243B34&hide_border=true&custom_title=Joshua's%20Contribution%20Graph" alt="Joshua's contribution graph" />
+</p>
 
 ---
 
