@@ -4,8 +4,8 @@
 ============================================================ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-rain.gif">
-  <img src="assets/hero-rain.gif" alt="Joshua Mohanlal - Full-Stack developer - Rotterdam, NL" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-typewriter.gif">
+  <img src="assets/hero-typewriter.gif" alt="Joshua Mohanlal - Full-Stack developer - Rotterdam, NL" width="100%"/>
 </picture>
 
 ---
@@ -62,6 +62,6 @@ I design and develop Roblox games on the side: worldbuilding, mechanics, systems
 
 ### Get in touch
 
-<a href="https://joshuamohanlal.com"><img src="https://img.shields.io/badge/portfolio-243B34?style=for-the-badge&logo=safari&logoColor=F4F8E8&labelColor=061011" alt="Portfolio"/></a>
-<a href="https://linkedin.com/in/joshuamohanlal"><img src="https://img.shields.io/badge/linkedin-365E55?style=for-the-badge&logo=linkedin&logoColor=F4F8E8&labelColor=061011" alt="LinkedIn"/></a>
-<a href="mailto:hello@joshuamohanlal.com"><img src="https://img.shields.io/badge/email-6F8174?style=for-the-badge&logo=protonmail&logoColor=F4F8E8&labelColor=061011" alt="Email"/></a>
+<a href="https://joshuamohanlal.com"><img src="https://img.shields.io/badge/portfolio-243B34?style=for-the-badge&labelColor=061011&color=243B34" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/joshu4"><img src="https://img.shields.io/badge/linkedin-365E55?style=for-the-badge&labelColor=061011&color=365E55" alt="LinkedIn"/></a>
+<a href="mailto:mohanlaljoshua@gmail.com"><img src="https://img.shields.io/badge/email-6F8174?style=for-the-badge&labelColor=061011&color=6F8174" alt="Email"/></a>
