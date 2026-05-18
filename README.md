@@ -4,8 +4,8 @@
 ============================================================ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero.gif">
-  <img src="assets/hero.gif" alt="Joshua Mohanlal - Full-Stack developer - Rotterdam, NL" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-rain.gif">
+  <img src="assets/hero-rain.gif" alt="Joshua Mohanlal - Full-Stack developer - Rotterdam, NL" width="100%"/>
 </picture>
 
 <br/>
