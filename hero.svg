@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- night forest sky: deep moss to indigo -->
+    <radialGradient id="sky" cx="50%" cy="35%" r="80%">
+      <stop offset="0%"  stop-color="#3a4a32"/>
+      <stop offset="40%" stop-color="#1f2a1c"/>
+      <stop offset="100%" stop-color="#0d130b"/>
+    </radialGradient>
+
+    <!-- moon glow -->
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#f2f4ee" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#e8ecdf" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#e8ecdf" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- title soft glow -->
+    <radialGradient id="titleHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%"  stop-color="#f2f4ee" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f2f4ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- kodama spore glow -->
+    <radialGradient id="sporeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#e8f0c8" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#c1cbb6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c1cbb6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- firefly warm glow -->
+    <radialGradient id="fireflyGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#fff4c4" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#f5d97a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f5d97a" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softBlur"><feGaussianBlur stdDeviation="1"/></filter>
+    <filter id="bigBlur"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1200" height="400" fill="url(#sky)"/>
+
+  <!-- distant moon halo -->
+  <circle cx="930" cy="110" r="180" fill="url(#moon)" opacity="0.7"/>
+  <circle cx="930" cy="110" r="42" fill="#f2f4ee" opacity="0.95"/>
+
+  <!-- soft horizontal mist -->
+  <ellipse cx="200" cy="280" rx="500" ry="22" fill="#8a9b6e" opacity="0.08" filter="url(#bigBlur)"/>
+  <ellipse cx="900" cy="300" rx="600" ry="20" fill="#8a9b6e" opacity="0.06" filter="url(#bigBlur)"/>
+
+  <!-- tree silhouette layer 1 (far, soft) -->
+  <path d="M 0 340
+           Q 60 310 90 320 Q 110 295 140 310 Q 170 280 200 305
+           Q 240 285 280 310 Q 320 290 360 315 Q 400 295 440 320
+           Q 500 290 540 315 Q 600 285 660 320 Q 720 295 780 315
+           Q 840 290 900 320 Q 960 295 1020 320 Q 1080 295 1140 320 Q 1180 305 1200 320
+           L 1200 400 L 0 400 Z"
+        fill="#1a2419" opacity="0.95"/>
+
+  <!-- tree silhouette layer 2 (closer, darker) -->
+  <path d="M 0 360
+           Q 80 340 130 355 Q 170 330 220 350 Q 270 335 320 355
+           Q 380 330 430 355 Q 490 335 540 360 Q 600 330 660 355
+           Q 730 335 790 360 Q 850 335 910 360 Q 970 340 1030 360 Q 1100 340 1200 360
+           L 1200 400 L 0 400 Z"
+        fill="#0d130b"/>
+
+  <!-- tiny vertical tree trunks accents -->
+  <g stroke="#0a0f08" stroke-width="2" stroke-linecap="round" opacity="0.9">
+    <line x1="90"   y1="360" x2="90"   y2="335"/>
+    <line x1="220"  y1="360" x2="220"  y2="338"/>
+    <line x1="380"  y1="360" x2="380"  y2="332"/>
+    <line x1="540"  y1="360" x2="540"  y2="340"/>
+    <line x1="720"  y1="360" x2="720"  y2="336"/>
+    <line x1="880"  y1="360" x2="880"  y2="340"/>
+    <line x1="1040" y1="360" x2="1040" y2="338"/>
+  </g>
+
+  <!-- kodama-like spores drifting (cool greenish-cream glow) -->
+  <g>
+    <g>
+      <circle cx="0" cy="100" r="6" fill="url(#sporeGlow)"/>
+      <circle cx="0" cy="100" r="1.5" fill="#f2f4ee"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="-30 0; 1230 -20" dur="34s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="34s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="0" cy="180" r="5" fill="url(#sporeGlow)"/>
+      <circle cx="0" cy="180" r="1.2" fill="#f2f4ee"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="-30 0; 1230 -30" dur="42s" begin="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0.85;0" dur="42s" begin="6s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="0" cy="260" r="7" fill="url(#sporeGlow)"/>
+      <circle cx="0" cy="260" r="1.8" fill="#f2f4ee"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="-30 0; 1230 -10" dur="38s" begin="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.95;0.95;0" dur="38s" begin="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="0" cy="60" r="4" fill="url(#sporeGlow)"/>
+      <circle cx="0" cy="60" r="1" fill="#f2f4ee"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="-30 0; 1230 -15" dur="48s" begin="18s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0.7;0" dur="48s" begin="18s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="0" cy="220" r="5" fill="url(#sporeGlow)"/>
+      <circle cx="0" cy="220" r="1.3" fill="#f2f4ee"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="-30 0; 1230 0" dur="40s" begin="24s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0.9;0" dur="40s" begin="24s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- fireflies (warm pulsing yellow dots near forest) -->
+  <g>
+    <g>
+      <circle cx="180" cy="295" r="3.5" fill="url(#fireflyGlow)"/>
+      <circle cx="180" cy="295" r="0.8" fill="#fff4c4"/>
+      <animate attributeName="opacity" values="0.2;1;0.3;0.9;0.2" dur="4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 10 -8; -5 5; 0 0" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="340" cy="280" r="3" fill="url(#fireflyGlow)"/>
+      <circle cx="340" cy="280" r="0.7" fill="#fff4c4"/>
+      <animate attributeName="opacity" values="0.8;0.2;1;0.4;0.8" dur="5s" begin="1s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -8 6; 5 -4; 0 0" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="490" cy="305" r="4" fill="url(#fireflyGlow)"/>
+      <circle cx="490" cy="305" r="0.9" fill="#fff4c4"/>
+      <animate attributeName="opacity" values="0.3;1;0.2;0.8;0.3" dur="4.5s" begin="2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 6 -10; -8 3; 0 0" dur="8s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="720" cy="290" r="3" fill="url(#fireflyGlow)"/>
+      <circle cx="720" cy="290" r="0.7" fill="#fff4c4"/>
+      <animate attributeName="opacity" values="1;0.3;0.9;0.2;1" dur="5.5s" begin="0.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -6 -7; 8 4; 0 0" dur="6.5s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="860" cy="300" r="3.5" fill="url(#fireflyGlow)"/>
+      <circle cx="860" cy="300" r="0.8" fill="#fff4c4"/>
+      <animate attributeName="opacity" values="0.4;0.9;0.2;1;0.4" dur="4.2s" begin="2.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 9 5; -4 -8; 0 0" dur="7.5s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="1020" cy="285" r="3" fill="url(#fireflyGlow)"/>
+      <circle cx="1020" cy="285" r="0.7" fill="#fff4c4"/>
+      <animate attributeName="opacity" values="0.9;0.2;1;0.3;0.9" dur="5s" begin="1.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -7 -5; 5 7; 0 0" dur="6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- title halo behind -->
+  <ellipse cx="600" cy="180" rx="350" ry="80" fill="url(#titleHalo)"/>
+
+  <!-- title: attunes -->
+  <text x="600" y="200" text-anchor="middle"
+        font-family="'Cormorant Garamond', 'EB Garamond', Georgia, serif"
+        font-size="118" font-weight="500" font-style="italic"
+        fill="#f2f4ee" letter-spacing="6">
+    attunes
+    <animate attributeName="opacity" values="0;1" dur="2.5s" fill="freeze"/>
+  </text>
+
+  <!-- subtle stars/sparkles -->
+  <g fill="#f2f4ee">
+    <circle cx="120" cy="50"  r="0.8" opacity="0.6"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="80"  r="0.6" opacity="0.5"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="450" cy="45"  r="0.9" opacity="0.7"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="60"  r="0.7" opacity="0.5"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="55" r="0.8" opacity="0.6"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="90" r="0.6" opacity="0.4"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="5.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- tagline -->
+  <text x="600" y="240" text-anchor="middle"
+        font-family="Georgia, serif" font-size="14" font-style="italic"
+        fill="#c1cbb6" letter-spacing="4" opacity="0">
+    to bring into harmony · to adjust to a frequency
+    <animate attributeName="opacity" values="0;0;0.75" dur="4s" fill="freeze"/>
+  </text>
+</svg>
