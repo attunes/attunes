@@ -1,6 +1,6 @@
 <!-- ============================================================
      attunes · profile readme
-     animated creek garden
+     animated rain garden
 ============================================================ -->
 
 <picture>
@@ -10,59 +10,67 @@
 
 <br/>
 
-## Hi, I'm Joshua.
-
-Full-stack developer in Rotterdam, building small worlds that actually ship. I like taking an idea from the first messy spark to something live: interface, backend, hosting, deployment, the quiet bits that make it feel dependable.
-
-Right now my workbench is split between **ContextSnip**, a cross-platform desktop app that turns screen recordings into AI-friendly annotated screenshots and transcripts, and **SoWhatsThePlan**, a calmer way to shape dream trips into real plans. Around that, I do client work end-to-end.
-
-### Field notes
-
-- Building client work and internal tooling from first sketch to production
-- Studying Computer Science at Hogeschool Rotterdam
-- Working through Azure certs: AZ-900 done, AZ-104 next
-- Open to freelance work where I can help with the whole path from idea to launch
-
-### Tools I reach for
-
-<p>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,js,lua,react,nextjs,tailwind,nodejs&theme=dark" alt="C#, .NET, TypeScript, JavaScript, Lua, React, Next.js, Tailwind, Node.js" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=expo,supabase,postgres,azure,docker,linux,git,figma&theme=dark" alt="Expo, Supabase, Postgres, Azure, Docker, Linux, Git, Figma" />
+<p align="center">
+  <strong>Small systems, warm interfaces, steady shipping.</strong><br/>
+  I build full-stack products from idea to live: frontend, backend, hosting, and launch.
 </p>
 
-Also comfortable in Liquid for Shopify, PHP and WordPress, Roblox Studio, hosting, custom systems, and whatever the project asks for once we get into the trees.
+<p align="center">
+  <a href="https://joshuamohanlal.com"><img src="https://img.shields.io/badge/portfolio-0B1516?style=for-the-badge&logo=safari&logoColor=E7FFF0&labelColor=0B1516" alt="Portfolio"/></a>
+  <a href="https://linkedin.com/in/joshuamohanlal"><img src="https://img.shields.io/badge/linkedin-6FAEA0?style=for-the-badge&logo=linkedin&logoColor=061011&labelColor=0B1516" alt="LinkedIn"/></a>
+  <a href="mailto:hello@joshuamohanlal.com"><img src="https://img.shields.io/badge/email-FF847E?style=for-the-badge&logo=protonmail&logoColor=061011&labelColor=0B1516" alt="Email"/></a>
+</p>
 
 ---
 
-### A little signal from the forest
+<h3 align="center">Now</h3>
 
-<p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=attunes&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=151f14&title_color=e9ddb4&icon_color=f3c96a&text_color=a9b98f&ring_color=e9ddb4" alt="Joshua's GitHub stats" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=attunes&hide_border=true&background=151f14&stroke=5f704a&ring=e9ddb4&fire=f3c96a&currStreakNum=f6f2df&sideNums=a9b98f&currStreakLabel=e9ddb4&sideLabels=a9b98f&dates=71815c" alt="Joshua's GitHub streak" />
+<p align="center">
+  <strong>ContextSnip</strong> / AI-ready screenshots and transcripts&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <strong>SoWhatsThePlan</strong> / dream trips into real plans&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <strong>Client work</strong> / idea to launch
 </p>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=attunes&bg_color=151f14&color=f6f2df&line=e9ddb4&point=f3c96a&area=true&area_color=5f704a&hide_border=true&custom_title=small%20lights%20through%20the%20canopy" alt="GitHub activity graph" />
+<p align="center">
+  Computer Science at Hogeschool Rotterdam&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  Azure AZ-900 done, AZ-104 next&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  open to freelance
+</p>
 
-<img src="https://raw.githubusercontent.com/attunes/attunes/output/github-snake-dark.svg" alt="Contribution snake" width="100%"/>
+<h3 align="center">Stack</h3>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,js,lua,react,nextjs,tailwind,nodejs,expo,supabase,postgres,azure,docker,linux,git,figma&theme=dark" alt="C#, .NET, TypeScript, JavaScript, Lua, React, Next.js, Tailwind, Node.js, Expo, Supabase, Postgres, Azure, Docker, Linux, Git, Figma" />
+</p>
+
+<p align="center">
+  <sub>Also: Liquid, PHP/WordPress, Roblox Studio, hosting, custom systems, and whatever the project needs.</sub>
+</p>
 
 ---
 
-### Selected work lives off GitHub
+<h3 align="center">Signal</h3>
 
-Most of what I build belongs to clients, so not everything can live in public repos. You can find selected projects, services, and the way I work at  
-**[joshuamohanlal.com](https://joshuamohanlal.com)**
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=attunes&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=061011&title_color=FF847E&icon_color=6FAEA0&text_color=C4E0D5&ring_color=FF847E" alt="Joshua's GitHub stats" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=attunes&hide_border=true&background=061011&stroke=284743&ring=FF847E&fire=FFB07A&currStreakNum=E7FFF0&sideNums=C4E0D5&currStreakLabel=FF847E&sideLabels=6FAEA0&dates=86AFA5" alt="Joshua's GitHub streak" />
+</p>
 
-### Also building
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=attunes&bg_color=061011&color=E7FFF0&line=6FAEA0&point=FF847E&area=true&area_color=284743&hide_border=true&custom_title=rain%20on%20the%20build%20log" alt="GitHub activity graph" />
+</p>
 
-I design and develop Roblox games on the side: worldbuilding, mechanics, systems, and a different kind of problem-solving than web work. It keeps the imagination warm.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/attunes/attunes/output/github-snake-dark.svg" alt="Contribution snake" width="100%"/>
+</p>
 
-### Get in touch
+---
 
-<a href="https://joshuamohanlal.com"><img src="https://img.shields.io/badge/portfolio-5F704A?style=for-the-badge&logo=safari&logoColor=F6F2DF&labelColor=151F14" alt="Portfolio"/></a>
-<a href="https://linkedin.com/in/joshuamohanlal"><img src="https://img.shields.io/badge/linkedin-A9B98F?style=for-the-badge&logo=linkedin&logoColor=151F14&labelColor=151F14" alt="LinkedIn"/></a>
-<a href="mailto:hello@joshuamohanlal.com"><img src="https://img.shields.io/badge/email-E9DDB4?style=for-the-badge&logo=protonmail&logoColor=151F14&labelColor=151F14" alt="Email"/></a>
+<p align="center">
+  Most public repos are only part of the picture. Selected projects, services, and how I work live at<br/>
+  <strong><a href="https://joshuamohanlal.com">joshuamohanlal.com</a></strong>
+</p>
 
-<br/>
-
-<sub>still listening for the next useful signal</sub>
+<p align="center">
+  <sub>still listening for the next useful signal</sub>
+</p>
