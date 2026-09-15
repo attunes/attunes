@@ -44,7 +44,7 @@ Also comfortable in Liquid, Shopify, Roblox Studio, hosting, custom systems, and
 ### Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=attunes&hide_border=true&background=061011&stroke=243B34&ring=F4F8E8&fire=C9D8CD&currStreakNum=F4F8E8&sideNums=C9D8CD&currStreakLabel=F4F8E8&sideLabels=9DB4A6&dates=6F8174" alt="Joshua's GitHub streak" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=attunes&hide_border=true&background=061011&stroke=243B34&ring=F4F8E8&fire=C9D8CD&currStreakNum=F4F8E8&sideNums=C9D8CD&currStreakLabel=F4F8E8&sideLabels=9DB4A6&dates=6F8174&v=2" alt="Joshua's GitHub streak" />
 </p>
 
 <p align="center">
